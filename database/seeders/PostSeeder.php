@@ -16,6 +16,7 @@ class PostSeeder extends Seeder
         Post::create([
             'title' => 'Post 1',
             'category_id' => '1',
+            'user_id' => '1',
             'excerpt' => 'Excerpt post 1',
             'body' => 'Body post 1'
         ]);
@@ -23,6 +24,7 @@ class PostSeeder extends Seeder
         Post::create([
             'title' => 'Post 2',
             'category_id' => '1',
+            'user_id' => '1',
             'excerpt' => 'Excerpt post 2',
             'body' => 'Body post 2'
         ]);
@@ -30,6 +32,7 @@ class PostSeeder extends Seeder
         Post::create([
             'title' => 'Post 3',
             'category_id' => '2',
+            'user_id' => '2',
             'excerpt' => 'Excerpt post 3',
             'body' => 'Body post 3'
         ]);
